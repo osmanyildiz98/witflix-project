@@ -195,6 +195,7 @@ footer {
 
 footer h4 {
     margin-top: 0;
+    font-weight: lighter;
 }
 
 .footer-left {
@@ -211,6 +212,10 @@ footer h4 {
 .footer-nav a {
     text-decoration: none;
     color: black;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .footer-right {

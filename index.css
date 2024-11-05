@@ -8,7 +8,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/*$ Header */
+/*~ Header */
 
 header {
     display: flex;
@@ -67,7 +67,7 @@ input {
     outline: none;
 }
 
-/*$ Hero */
+/*~ Hero */
 
 main {
     display: flex;
@@ -126,7 +126,7 @@ button i {
     margin-right: 1rem;
 }
 
-/*$ Suggestion */
+/*~ Suggestion */
 
 .suggestion {
     display: flex;
@@ -182,4 +182,62 @@ button i {
 .movie-card button {
     padding: .8rem 1.5rem .8rem .5rem;
     font-size: 1rem;
+}
+
+/*~ Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+footer h4 {
+    margin-top: 0;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-accounts {
+    display: flex;
+    gap: .5rem;
+}
+
+.social-accounts i {
+    font-size: 2rem;
+}
+
+.red {
+    color: #CD201F;
+}
+
+.blue {
+    color: #26a7de;
+}
+
+.darkblue {
+    color: #3b5998;
+}
+
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+}
+
+.apps {
+    display: flex;
+}
+
+.apps img {
+    width: 8rem;
 }

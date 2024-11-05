@@ -1,56 +1,65 @@
-html {
-    font-size: 10px;
-}
-
 body {
-    margin: 0;
+    margin: 0 1.3rem;
     padding: 0;
     box-sizing: border-box;
 }
+
+h2 {
+    text-transform: uppercase;
+}
+
+/*$ Header */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2rem;
 }
 
 .logo-text {
     color: red;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
+    flex: 1;
 }
 
 nav {
     display: flex;
+    justify-content: center;
     gap: 1rem;
+    flex: 1;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 1.5rem;
+    
     color: black;
 }
 
-.header-right {
+.user-panel {
     display: flex;
     align-items: center;
+    justify-content: end;
     gap: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    flex: 1;
 }
 
-.header-right img {
+.user-panel img {
     width: 3rem;
     border-radius: 50%;
     
 }
 
+.user-panel>i {
+    font-size: 2rem;
+}
+
 .input-container {
     display: flex;
     align-items: center;
-    gap: .5rem;
     border: 1px solid black;
-    padding: .5rem 1rem;
+    padding: .3rem;
 }
 
 input {
@@ -58,6 +67,119 @@ input {
     outline: none;
 }
 
-.header-right i {
-    font-size: 2rem;
+/*$ Hero */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+    padding: 8rem 1.5rem;
+}
+
+main > p {
+    width: 40%;
+}
+
+.movie-detail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.movie-detail i {
+    color: red;
+}
+
+.movie-age {
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: .2rem .3rem;
+}
+
+.movie-info p{
+    margin-bottom: 0;
+}
+
+.movie-info p:last-child {
+    margin-bottom: 2rem;
+}
+
+.movie-info span {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+button i {
+    color: white;
+    margin-right: 1rem;
+}
+
+/*$ Suggestion */
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-movies {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.movie-card-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie-card-header-container a {
+    text-decoration: none;
+    color: gray;
+}
+
+.movie-card {
+    width: 30%;
+    border: 1px solid black;
+    padding: 2rem 1rem;
+}
+
+.movie-card-detail {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.movie-card-detail p:first-child {
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: .2rem .3rem;
+}
+
+.movie-card button {
+    padding: .8rem 1.5rem .8rem .5rem;
+    font-size: 1rem;
 }

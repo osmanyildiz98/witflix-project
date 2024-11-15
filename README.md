@@ -1,1 +1,3 @@
-<a href = "witflix-project.netlify.app">WitFlix Project</a>
+# Witflix Project
+
+Projemi Netlify üzerinden inceleyebilirsiniz: [Netlify Linki](https://witflix-project.netlify.app)
